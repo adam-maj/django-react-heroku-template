@@ -28,7 +28,6 @@ DEBUG = os.environ.get('DJANGO_DEBUG', 'False') != 'False'
 
 ALLOWED_HOSTS = ['adammaj.herokuapp.com']
 
-
 # Application definition
 
 INSTALLED_APPS = [
