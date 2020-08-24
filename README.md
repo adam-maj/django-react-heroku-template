@@ -22,4 +22,8 @@ Boilerplate template for django-react app with heroku and heroku-postgres
 2. Change any instance of "appname" to your project name in the following areas (use CTRL or CMD + F to find):
     1. appname/asgi.py (Line 14)
     2. appname/wsgi.py (Line 14)
+<<<<<<< HEAD
     3. appname/settings.py (Line 54, Line 72)
+=======
+    3. appname/settings.py (Line 54, Line 72)
+>>>>>>> 54ab3049294f32a172ffb66778dc7a8ff1d5101a
