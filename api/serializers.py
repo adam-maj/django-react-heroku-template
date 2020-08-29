@@ -1,6 +1,8 @@
 from rest_framework import serializers
 #from .models import ExampleModel
 
+# =========================== EXAMPLE SERIALIZER ===========================
+
 # class ExampleModelSerializer(serializers.ModelSerializer):
 #     class Meta:
 #         model = ExampleModel

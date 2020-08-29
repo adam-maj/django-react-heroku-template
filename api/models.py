@@ -1,5 +1,7 @@
 from django.db import models
 
+# ============================ EXAMPLE MODEL =============================
+
 # class ExampleModel(models.Model):
 #     name = models.CharField(max_length=50)
 #     relation = models.ForeignKey(RelatedModel, on_delete=models.CASCADE)
