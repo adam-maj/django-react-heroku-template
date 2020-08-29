@@ -12,6 +12,13 @@ Boilerplate template for django-react app with heroku and heroku-postgres
 8. Delete every migrations folder in your local repository and push all the changes
 9. In a SEPERATE commit/push, add all the migrations folders to the .gitignore (there is an example line for it that is commented out).
 
+# Django Backend Setup
+1. Create models in models.py
+2. Import and add serializers for all necessary models in serializers.py
+3. Register all necessary models in admin.py
+4. Import and create API endpoints for all necessary models in views.py
+5. Configure url endpoints for all API endpoints in views.py
+
 # Important Code in Repo
 1. package.json, package-lock.json, and requirements.txt are all in the root directory. Heroku will automatically look for these files there to install the dependencies.
 2. Procfile runs the Django wsgi file with gunicorn
