@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # migrations - uncomment this section out after initial commit and add all migrations folders
-# /api/migrations
+/api/migrations
 
 # dependencies
 /node_modules
