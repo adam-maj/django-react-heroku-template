@@ -3,10 +3,11 @@ Boilerplate template for django-react app with heroku and heroku-postgres
 
 # Heroku/Git Setup
 1. Create a new heroku app on the [heroku dashboard](dashboard.heroku.com)
+2. Add heroku domain to allowed hosts in settings.py line 13
 2. Add "heroku postgres" to the apps add-ons
 3. Go to the deploy tab and select "GitHub" as the deployment method, then connect it to the intended repo
 4. Go to settings and add both "heroku/nodejs" and "heroku/python" to the buildpacks. Make sure the nodejs buildpack comes first (otherwise django will try to collectstatic before react has run build).
-5. Configure necessary environment variables. To get and setup a secret key, set the 'DJANGO_SECRET_KEY' environment variable to a key generated at this [django secret key generator](https://djecrety.ir/)
+5. Configure necessary environment variables. To get and setup a secret key, set the 'DJANGO_SECRET_KEY' environment variable to a key generated at this [django secret key generator](https://djecrety.ir/). Set 'DJANGO_DEVELOPMENT_MODE' to 'False'.
 6. Go to deploy tab and click "deploy branch" in the manual deploy section
 7. Delete the first two commands out of the release-tasks.sh and push the changes
 
@@ -31,4 +32,5 @@ Boilerplate template for django-react app with heroku and heroku-postgres
 2. Change any instance of "appname" to your project name in the following areas (use CTRL or CMD + F to find):
     1. appname/asgi.py (Line 14)
     2. appname/wsgi.py (Line 14)
-    3. appname/settings.py (Line 54, Line 72)
+    3. appname/settings.py (Line 39, Line 57)
+    4. manage.py (Line 9)

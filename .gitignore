@@ -1,7 +1,9 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# migrations - uncomment this section out after initial commit and add all migrations folders
+# database
 /api/migrations
+/api/__pycache__
+db.sqlite3
 
 # dependencies
 /node_modules
