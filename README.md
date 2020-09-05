@@ -34,3 +34,4 @@ Boilerplate template for django-react app with heroku and heroku-postgres
     2. appname/wsgi.py (Line 14)
     3. appname/settings.py (Line 39, Line 57)
     4. manage.py (Line 9)
+    5. Heroku Procfile
